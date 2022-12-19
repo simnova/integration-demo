@@ -1,0 +1,16 @@
+semi: true
+jsx-semi: false
+trailingComma: es5
+quoteProps: as-needed
+jsxSingleQuote: false
+singleQuote: true
+printWidth: 175
+overrides:
+  - files: "*.test.js"
+    options:
+      semi: true
+  - files:
+      - "*.html"
+      - "legacy/**/*.js"
+    options:
+      tabWidth: 2
